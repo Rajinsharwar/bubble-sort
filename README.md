@@ -62,5 +62,5 @@ flowchart TD
 The app will be deployed on Hugging Face Spaces. Link to the live demo: https://huggingface.co/spaces/rajinsharwar/bubble-sort
 
 ## Author & Acknowledgment
-**Author:** Mohammad Rajin Sharwar
+**Author:** Mohammad Rajin Sharwar  
 **Acknowledgment:** Thanks to the CISC-121 course instructors for their guidance and tips. Also, the VisuAlgo site was a great reference for understanding and explaining bubble sort behavior.
