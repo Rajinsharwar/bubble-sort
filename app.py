@@ -27,15 +27,17 @@ def bubble_sort_steps(arr):
 
 def simulate_bubble_sort(input_str):
     if not input_str or input_str.strip() == "":
-        return "Please enter a list of integers (e.g. 5, 3, 8, 1)."
-    import re
-    numbers = re.findall(r'-?\d+', input_str)
-    if len(numbers) == 0:
-        return "Invalid input. Please enter only integers separated by commas or spaces."
-    try:
-        arr = [int(x) for x in numbers]
-    except Exception as e:
-        return f"Invalid input. {e}"
+        return "Please enter a comma-separated list of integers like: 1, 2, 3"
+
+    parts = input_str.strip().split(",")
+
+    arr = []
+    for part in parts:
+        part = part.strip()
+        if not part or not part.lstrip("-").isdigit():
+            return "Invalid input. Please enter integers only, separated by commas like: 4, 10, -2, 0"
+        arr.append(int(part))
+
     steps = bubble_sort_steps(arr)
     output_lines = [f"{idx+1}. {step}" for idx, step in enumerate(steps)]
     return "\n".join(output_lines)
