@@ -48,6 +48,7 @@ flowchart TD
     L -->|No| M[Done Sorting]
     M --> N[Show steps to user]
     N --> O[End]
+```
 
 ## Steps to Run
 1. **Clone or Download** this project repository to your local machine. Make sure you have Python 3 installed.
