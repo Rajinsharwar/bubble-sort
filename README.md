@@ -10,7 +10,8 @@ pinned: false
 ---
 
 # Bubble Sort
-## Demo video/gif/screenshot of test
+## Demo video of test
+https://somup.com/cTXU0pRD5v
 
 ## Problem Breakdown & Computational Thinking
 
@@ -57,7 +58,7 @@ flowchart TD
 *(Alternatively, as it's deployed on Hugging Face, you could run it in the browser without any installation.)*
 
 ## Hugging Face Link
-The app will be deployed on Hugging Face Spaces. Link to the live demo: _(coming soon)_.
+The app will be deployed on Hugging Face Spaces. Link to the live demo: https://huggingface.co/spaces/rajinsharwar/bubble-sort
 
 ## Author & Acknowledgment
 **Author:** Mohammad Rajin Sharwar
